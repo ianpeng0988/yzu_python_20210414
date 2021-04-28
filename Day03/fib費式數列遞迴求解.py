@@ -7,6 +7,6 @@ def fib(n):
 
     return fib(n - 1) + fib(n - 2)
 
-n = 30
+n = 33
 value = fib(n)
 print(n, value)
