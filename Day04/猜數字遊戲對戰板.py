@@ -3,9 +3,10 @@ ans = r.randint(1, 99)
 min = 0
 max = 100
 count = 5
+
 while count > 0:
     #  使用者猜
-    guess = int(input)('(%d). 請輸入 %d ~ %d : ' % (count, min, max))
+    guess = int(input('(%d).使用者猜 %d ~ %d: ' % (count, min, max))
     #  檢查guess 的資料是否在 min 與 max 之間 ?
     if guess <= min or guess >= max:
         print('數字範圍錯誤')
