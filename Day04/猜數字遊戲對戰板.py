@@ -13,6 +13,7 @@ while count > 0:
         continue
 
     #  判定結果
+    if check(guess, 使用者)
 def chenk(guess, who):
     global min, max
     if check(guess > ans:
